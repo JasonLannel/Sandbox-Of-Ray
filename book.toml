@@ -1,0 +1,15 @@
+[book]
+authors = ["JasonLannel"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "光影箱庭"
+
+[output.html]
+fold = { enable = true }
+no-section-label = true
+git-repository-url = "https://github.com/JasonLannel/Sandbox_Of_Ray"
+edit-url-template = "https://github.com/JasonLannel/Sandbox_Of_Ray/edit/main/{path}"
+
+[preprocessor.katex]
+after = ["links"]
